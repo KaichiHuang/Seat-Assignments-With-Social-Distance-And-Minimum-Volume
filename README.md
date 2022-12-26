@@ -6,13 +6,21 @@
 
 ## 2.Methodology
 
-在這個部份我們會介紹專案中使用的公式與方法。
-2. Euclidean distance（歐式距離）
-
+首先我們需要先設置一個室內空間的座標作為輸入，如下圖，我們使用一間教室作為範例，透過輸入教室中的每一個座位之座標來得到layout圖。
+![layout](https://user-images.githubusercontent.com/120470999/209468847-e1474e67-8803-4466-b187-4bb308fd4d77.jpg)
+接著使用Euclidean distance（歐式距離）公式來計算座位中心與座位中心之間的距離，以下為二維及三維的距離計算公式。
 
 ●二維空間之公式
+![1671804199574](https://user-images.githubusercontent.com/120470999/209348419-3daadda5-54cc-4692-9a1f-50797d4f6694.jpg)
 
 ●三維空間之公式
+![1671804209526](https://user-images.githubusercontent.com/120470999/209348461-95d149fd-8a57-43d1-bca9-4b3631a3db0b.jpg)
+
+在計算完每個座位間的距離後，便可以使用分貝的計算公式來計算音量大小，根據inverse square law（平方反比定律），我們可以發現音量會隨著距離的平方而變小，下列公式假設
+一般談話的音量在10英寸的範圍內約60分貝，將距離帶入公式後，所得之分貝需大於等於我們設置的最小分貝數。
+![分貝舉例](https://user-images.githubusercontent.com/120470999/209550358-e8fff1e2-afff-480f-a1fa-f0c343284404.jpg)
+
+
 
 ## 3.Data Collection and Analysis Result
 
