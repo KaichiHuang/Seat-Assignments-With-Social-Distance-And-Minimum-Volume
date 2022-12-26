@@ -1,26 +1,25 @@
-# Seat-Assignments-With-Social-Distance-and-Minimum-Volume
+# Seat Assignments With Social Distance and Minimum Volume
 
 ## 1.Background
 
-受到covid-19的影響，各國政府紛紛針對公共場合人與人之間須保持社交距離的限制，而根據參考文獻，我們可以利用輸入一個已知的空間layout圖及最小社交距離來求解最大可用座位數，在本研究中我們也另外考慮了在社交距離的限制下，人與人之間仍須具備溝通的能力，也就是最小音量的限制，使得座位安排除了能滿足社交距離外，也能夠讓人們維持正常的談話、溝通，同時也透過許多的方法，如：決定音箱(擴音設備)、防疫隔板設置的位置，達到更多可用座位的目標。
-
+受到covid-19的影響，各國政府紛紛針對公共場合人與人之間須保持社交距離的限制，而根據參考文獻，我們可以利用輸入一個已知的空間layout圖及最小社交距離來求解最大可用座位數，在本研究中我們也另外考慮了在社交距離的限制下，人與人之間仍須具備溝通的能力，也就是最小音量的限制，使得座位安排除了能滿足社交距離外，也能夠讓人們維持正常的談話、溝通，同時也透過許多的方法，如：決定音箱(擴音設備)、防疫隔板設置的位置，達到更多可用座位的目標。以下將介紹如何透過Excel檔輸入座標產生空間layout圖，並使用Python的Gurobi Optimizer求解最大可用座位，再利用Python的Matplotlib繪圖套件產生座位分布圖。
 ## 2.Methodology
 
-首先我們需要先設置一個室內空間的座標作為輸入，如下圖，我們使用一間教室作為範例，透過輸入教室中的每一個座位之座標來得到layout圖。
+首先我們需要先設置一個室內空間的座標作為輸入，如下圖，我們使用一間教室作為範例，透過在Excel中輸入教室中的每一個座位之座標來得到layout圖。
 ![layout](https://user-images.githubusercontent.com/120470999/209468847-e1474e67-8803-4466-b187-4bb308fd4d77.jpg)
 接著使用Euclidean distance（歐式距離）公式來計算座位中心與座位中心之間的距離，以下為二維及三維的距離計算公式。
 
-●二維空間之公式
+●二維空間距離計算之公式
 
-![1671804199574](https://user-images.githubusercontent.com/120470999/209348419-3daadda5-54cc-4692-9a1f-50797d4f6694.jpg)
+![二維空間距離計算之公式](https://user-images.githubusercontent.com/120470999/209348419-3daadda5-54cc-4692-9a1f-50797d4f6694.jpg)
 
-●三維空間之公式
+●三維空間距離計算之公式
 
-![1671804209526](https://user-images.githubusercontent.com/120470999/209348461-95d149fd-8a57-43d1-bca9-4b3631a3db0b.jpg)
+![三維空間距離計算之公式](https://user-images.githubusercontent.com/120470999/209348461-95d149fd-8a57-43d1-bca9-4b3631a3db0b.jpg)
 
 在計算完每個座位間的距離後，便可以使用分貝的計算公式來計算音量大小，根據inverse square law（平方反比定律），我們可以發現音量會隨著距離的平方而變小，下列公式假設一般談話的音量在10英寸的範圍內約60分貝，將距離帶入公式後，所得之分貝需大於等於我們設置的最小分貝數。
 
-![分貝舉例](https://user-images.githubusercontent.com/120470999/209550358-e8fff1e2-afff-480f-a1fa-f0c343284404.jpg)
+![分貝計算公式](https://user-images.githubusercontent.com/120470999/209550358-e8fff1e2-afff-480f-a1fa-f0c343284404.jpg)
 
 
 
