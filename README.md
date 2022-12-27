@@ -38,13 +38,13 @@
 
 #### 2.3.1 Parameters
 
-![參數設定](https://user-images.githubusercontent.com/120470999/209672160-949b42ea-887b-4686-a672-5ec50e7bab34.jpg)
+本專案輸入的參數包含空間中座位之座標、最小的社交距離(英吋)、最小的音量(分貝)、空間中可用座位數。
 
+![參數設定](https://user-images.githubusercontent.com/120470999/209674609-099dcc84-759c-4f26-8588-08619b5dd1e9.jpg)
 
 #### 2.3.2 Decision Variables
 
-![決策變數](https://user-images.githubusercontent.com/120470999/209667724-19470fec-9139-4af0-8b53-868a21bcc99f.jpg)
-
+![決策變數](https://user-images.githubusercontent.com/120470999/209674598-d0bdc79c-6359-43b0-80ac-5d7cbbec9ba6.jpg)
 
 #### 2.3.3 Constraints
 
