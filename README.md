@@ -38,7 +38,7 @@
 
 #### 2.3.1 Parameters
 
-![參數設定](https://user-images.githubusercontent.com/120470999/209667701-4419435c-8149-484a-887f-54251a58757e.jpg)
+![參數設定](https://user-images.githubusercontent.com/120470999/209672160-949b42ea-887b-4686-a672-5ec50e7bab34.jpg)
 
 
 #### 2.3.2 Decision Variables
@@ -48,12 +48,11 @@
 
 #### 2.3.3 Constraints
 
-![限制式](https://user-images.githubusercontent.com/120470999/209667737-2cea4634-bb81-415a-be2e-684018673ade.jpg)
-
+![限制式](https://user-images.githubusercontent.com/120470999/209672183-3ec73903-aac7-4bd4-9b3c-1c362cbd7bcc.jpg)
 
 #### 2.3.4 Objective Function
 
-![目標式](https://user-images.githubusercontent.com/120470999/209667743-acba86fc-3efc-4e9e-99a4-09c26dae7135.jpg)
+![目標式](https://user-images.githubusercontent.com/120470999/209672201-2c1f7b66-15e5-45ff-bd30-cbb73e7fae5d.jpg)
 
 
 ## 3.Data Collection and Analysis Result
