@@ -51,6 +51,7 @@
 #### 2.3.3 Constraints
 
 若w等於1，表示a和b座位間的距離不符合距離限制，a和b當中只有一個位置可以坐人
+
 若w等於0，表示a和b座位間的距離符合距離限制，a和b位置皆可以坐人
 
 ![限制式](https://user-images.githubusercontent.com/120470999/209672183-3ec73903-aac7-4bd4-9b3c-1c362cbd7bcc.jpg)
