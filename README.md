@@ -41,17 +41,17 @@
 ![參數設定](https://user-images.githubusercontent.com/120470999/209667701-4419435c-8149-484a-887f-54251a58757e.jpg)
 
 
-#### 2.3.1 Decision Variables
+#### 2.3.2 Decision Variables
 
 ![決策變數](https://user-images.githubusercontent.com/120470999/209667724-19470fec-9139-4af0-8b53-868a21bcc99f.jpg)
 
 
-#### 2.3.1 Constraints
+#### 2.3.3 Constraints
 
 ![限制式](https://user-images.githubusercontent.com/120470999/209667737-2cea4634-bb81-415a-be2e-684018673ade.jpg)
 
 
-#### 2.3.1 Objective Function
+#### 2.3.4 Objective Function
 
 ![目標式](https://user-images.githubusercontent.com/120470999/209667743-acba86fc-3efc-4e9e-99a4-09c26dae7135.jpg)
 
