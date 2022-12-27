@@ -55,10 +55,6 @@
 
 ![目標式](https://user-images.githubusercontent.com/120470999/209667743-acba86fc-3efc-4e9e-99a4-09c26dae7135.jpg)
 
-----
-
-![模型設置](https://user-images.githubusercontent.com/120470999/209667015-0f6972a7-8daf-4001-b76d-c419ba40f38b.jpg)
-
 
 ## 3.Data Collection and Analysis Result
 
