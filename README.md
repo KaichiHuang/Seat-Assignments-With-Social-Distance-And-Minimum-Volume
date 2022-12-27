@@ -36,6 +36,7 @@
 
 我們使用MIP模型來求解個人、群組這兩種情境下的最大可用座位數，以下為本問題的參數、決策變數、限制與目標式。
 
+![模型設置](https://user-images.githubusercontent.com/120470999/209667015-0f6972a7-8daf-4001-b76d-c419ba40f38b.jpg)
 
 
 ## 3.Data Collection and Analysis Result
