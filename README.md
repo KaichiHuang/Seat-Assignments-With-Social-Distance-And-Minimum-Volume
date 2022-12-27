@@ -44,6 +44,7 @@
 
 #### 2.3.2 Decision Variables
 
+...
 ![決策變數](https://user-images.githubusercontent.com/120470999/209674598-d0bdc79c-6359-43b0-80ac-5d7cbbec9ba6.jpg)
 
 #### 2.3.3 Constraints
