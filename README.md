@@ -44,14 +44,20 @@
 
 #### 2.3.2 Decision Variables
 
-...
+決策變數為二元決策變數，等於1時表示此座位已經被選走了，等於0則代表此座位還可以被選擇。
+
 ![決策變數](https://user-images.githubusercontent.com/120470999/209674598-d0bdc79c-6359-43b0-80ac-5d7cbbec9ba6.jpg)
 
 #### 2.3.3 Constraints
 
+若w等於1，表示a和b座位間的距離不符合距離限制，a和b當中只有一個位置可以坐人
+若w等於0，表示a和b座位間的距離符合距離限制，a和b位置皆可以坐人
+
 ![限制式](https://user-images.githubusercontent.com/120470999/209672183-3ec73903-aac7-4bd4-9b3c-1c362cbd7bcc.jpg)
 
 #### 2.3.4 Objective Function
+
+本專案的目標為最大化可用座位數。
 
 ![目標式](https://user-images.githubusercontent.com/120470999/209672201-2c1f7b66-15e5-45ff-bd30-cbb73e7fae5d.jpg)
 
