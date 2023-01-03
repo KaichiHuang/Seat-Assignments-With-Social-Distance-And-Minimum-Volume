@@ -184,6 +184,10 @@ C= [0,55,70]、D= [0,75,70]、E= [0,95,70]上，均可以獲得最佳解：35個
 
 ## 5.Reference
 
-https://www.sciencedirect.com/science/article/pii/S0377221721006056
+Moore, J. F., Carvalho, A., Davis, G. A., Abulhassan, Y., & Megahed, F. M. (2021). Seat assignments with physical distancing in single-destination public transit settings. IEEE Access, 9, 42985-42993.
 
 https://ieeexplore.ieee.org/document/9374410
+
+Fischetti, M., Fischetti, M., & Stoustrup, J. (2023). Safe distancing in the time of COVID-19. European journal of operational research, 304(1), 139-149.
+
+https://www.sciencedirect.com/science/article/pii/S0377221721006056
