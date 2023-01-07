@@ -1,4 +1,4 @@
-# Seat Assignments With Social Distance and Minimum Volume
+# Seat Assignments with Social Distance and Minimum Volume
 
 ## 1.Background
 
