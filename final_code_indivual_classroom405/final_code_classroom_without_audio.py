@@ -5,9 +5,6 @@ Created on Thu Dec  8 13:22:21 2022
 @author: JEAN
 """
 
-#授課時的座位排版#
-#我的邏輯
-
 
 from gurobipy import *
 import numpy as np
